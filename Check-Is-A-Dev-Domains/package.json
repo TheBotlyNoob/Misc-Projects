@@ -1,0 +1,15 @@
+{
+  "name": "check-is-a-dev-domains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm i && node --trace-warnings index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
