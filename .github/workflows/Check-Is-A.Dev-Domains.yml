@@ -3,7 +3,7 @@ name: Run Tests
 on:
   push:
   workflow_dispatch:
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,18 +13,18 @@ jobs:
         working-directory: /Check-Is-A.Dev-Domains/
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Run The Tests
-      run: npm start
+      - name: Run The Tests
+        run: npm start
 
-    - name: Commit to the repo
-      run: |
-        git config --global user.name "Update README For Latest Run!"
-        git config --global user.email "action@github.com"
-        git add .
-        git commit -m 'Update README.md' || echo
-        git push
+      - name: Commit to the repo
+        run: |
+          git config --global user.name "Update README For Latest Run!"
+          git config --global user.email "action@github.com"
+          git add .
+          git commit -m 'Update README.md' || echo
+          git push

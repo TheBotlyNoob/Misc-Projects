@@ -1,0 +1,20 @@
+{
+  "name": "Human-Readable-Ids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBotlyNoob/human-readable-ids.git"
+  },
+  "keywords": [],
+  "author": "Jay Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBotlyNoob/human-readable-ids/issues"
+  },
+  "homepage": "https://github.com/TheBotlyNoob/human-readable-ids#readme.md"
+}

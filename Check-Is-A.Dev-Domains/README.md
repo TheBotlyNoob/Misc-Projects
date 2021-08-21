@@ -1,6 +1,6 @@
 Broken Subdomains |
 :---:
-[_psl.is-a.dev](https://_psl.is-a.dev) With A JSON Path Of: [_psl.json](https://github.com/is-a-dev/register/tree/main/domains/_psl.json) |
+[\_psl.is-a.dev](https://_psl.is-a.dev) With A JSON Path Of: [\_psl.json](https://github.com/is-a-dev/register/tree/main/domains/_psl.json) |
 [aaron.is-a.dev](https://aaron.is-a.dev) With A JSON Path Of: [aaron.json](https://github.com/is-a-dev/register/tree/main/domains/aaron.json) |
 [abhay.is-a.dev](https://abhay.is-a.dev) With A JSON Path Of: [abhay.json](https://github.com/is-a-dev/register/tree/main/domains/abhay.json) |
 [abhinavdalal.is-a.dev](https://abhinavdalal.is-a.dev) With A JSON Path Of: [abhinavdalal.json](https://github.com/is-a-dev/register/tree/main/domains/abhinavdalal.json) |
