@@ -47,15 +47,18 @@ var down = [],
             new Date().getMonth() - 5
         )
           continue;
-        fetched = await await fetch(`https://${current}.is-a.dev`).catch(() =>
-          down.push(`${current}.json`)
-        );
 
-        if (fetched.status && !fetched.ok) {
+        try {
+          fetched = await fetch(`https://${current}.is-a.dev`);
+        } catch (_) {
+          down.push(current);
+        }
+
+        if (!fetched?.ok) {
           console.log(
             `https://${current}.is-a.dev Is NOT OK, It Is: ${fetched.status}`
           );
-          down.push(`${current}.json`);
+          down.push(current);
         }
       } catch (e) {}
     }
@@ -67,10 +70,9 @@ var down = [],
 :---:
 ${down
   .map(
-    (i) => `[${i.replace('.json', '')}.is-a.dev](https://${i.replace(
-      '.json',
-      ''
-    )}.is-a.dev) With A JSON Path Of: [${i}](https://github.com/is-a-dev/register/tree/main/domains/${i}) |
+    (
+      domain
+    ) => `[${domain}.is-a.dev](https://${domain}.is-a.dev) With A JSON Path Of: [${domain}.json](https://github.com/is-a-dev/register/tree/main/domains/${domain}.json) |
 `
   )
   .join('')}`
