@@ -1,11 +1,11 @@
-name: Run Tests
+name: Check Domains
 
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  build:
+  check-domains:
     runs-on: ubuntu-latest
 
     defaults:
@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Run The Tests
+      - name: Run
         run: npm start
 
-      - name: Commit to the repo
+      - name: Commit
         run: |
           git config --global user.name "Update README For Latest Run!"
           git config --global user.email "action@github.com"
