@@ -1,0 +1,27 @@
+{
+  "name": "spacious-text",
+  "version": "1.0.0",
+  "description": "A module and CLI app for making spaced out text",
+  "main": "index.js",
+  "bin": {
+    "space-text": "./cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBotlyNoob/spacious-text.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBotlyNoob/spacious-text/issues"
+  },
+  "homepage": "https://github.com/TheBotlyNoob/spacious-text#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0"
+  }
+}
