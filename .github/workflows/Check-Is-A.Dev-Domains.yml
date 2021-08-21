@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: /Check-Is-A.Dev-Domains/
+        working-directory: ./Check-Is-A.Dev-Domains/
 
     steps:
       - uses: actions/checkout@v2
