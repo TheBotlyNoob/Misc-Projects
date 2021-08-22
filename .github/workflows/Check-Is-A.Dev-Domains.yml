@@ -26,5 +26,5 @@ jobs:
           git config --global user.name "Update README For Latest Run!"
           git config --global user.email "action@github.com"
           git add .
-          git commit -m 'Update README.md' || echo
+          git commit -m 'Update Domains' || echo
           git push
