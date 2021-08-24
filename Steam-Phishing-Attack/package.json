@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "human-readable-ids": "^1.0.4",
+    "node-fetch": "^2.6.1"
+  }
+}
