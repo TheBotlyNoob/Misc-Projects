@@ -19,6 +19,8 @@ Broken Subdomains |
 [akshay-ashok.is-a.dev](https://akshay-ashok.is-a.dev) With A JSON Path Of: [akshay-ashok.json](https://github.com/is-a-dev/register/tree/main/domains/akshay-ashok.json) |
 [alan.is-a.dev](https://alan.is-a.dev) With A JSON Path Of: [alan.json](https://github.com/is-a-dev/register/tree/main/domains/alan.json) |
 [alexander.is-a.dev](https://alexander.is-a.dev) With A JSON Path Of: [alexander.json](https://github.com/is-a-dev/register/tree/main/domains/alexander.json) |
+[alexidk.is-a.dev](https://alexidk.is-a.dev) With A JSON Path Of: [alexidk.json](https://github.com/is-a-dev/register/tree/main/domains/alexidk.json) |
+[alexjoseph.is-a.dev](https://alexjoseph.is-a.dev) With A JSON Path Of: [alexjoseph.json](https://github.com/is-a-dev/register/tree/main/domains/alexjoseph.json) |
 [alexjoseph.is-a.dev](https://alexjoseph.is-a.dev) With A JSON Path Of: [alexjoseph.json](https://github.com/is-a-dev/register/tree/main/domains/alexjoseph.json) |
 [allan.is-a.dev](https://allan.is-a.dev) With A JSON Path Of: [allan.json](https://github.com/is-a-dev/register/tree/main/domains/allan.json) |
 [allsyed.is-a.dev](https://allsyed.is-a.dev) With A JSON Path Of: [allsyed.json](https://github.com/is-a-dev/register/tree/main/domains/allsyed.json) |
@@ -92,6 +94,7 @@ Broken Subdomains |
 [ericp3reira.is-a.dev](https://ericp3reira.is-a.dev) With A JSON Path Of: [ericp3reira.json](https://github.com/is-a-dev/register/tree/main/domains/ericp3reira.json) |
 [erisa.is-a.dev](https://erisa.is-a.dev) With A JSON Path Of: [erisa.json](https://github.com/is-a-dev/register/tree/main/domains/erisa.json) |
 [ezedinff.is-a.dev](https://ezedinff.is-a.dev) With A JSON Path Of: [ezedinff.json](https://github.com/is-a-dev/register/tree/main/domains/ezedinff.json) |
+[f2cqjkp4gwog.is-a.dev](https://f2cqjkp4gwog.is-a.dev) With A JSON Path Of: [f2cqjkp4gwog.json](https://github.com/is-a-dev/register/tree/main/domains/f2cqjkp4gwog.json) |
 [farzan.is-a.dev](https://farzan.is-a.dev) With A JSON Path Of: [farzan.json](https://github.com/is-a-dev/register/tree/main/domains/farzan.json) |
 [fatgrizzly.is-a.dev](https://fatgrizzly.is-a.dev) With A JSON Path Of: [fatgrizzly.json](https://github.com/is-a-dev/register/tree/main/domains/fatgrizzly.json) |
 [fauzannnnh.is-a.dev](https://fauzannnnh.is-a.dev) With A JSON Path Of: [fauzannnnh.json](https://github.com/is-a-dev/register/tree/main/domains/fauzannnnh.json) |
@@ -126,7 +129,6 @@ Broken Subdomains |
 [ivolimasilva.is-a.dev](https://ivolimasilva.is-a.dev) With A JSON Path Of: [ivolimasilva.json](https://github.com/is-a-dev/register/tree/main/domains/ivolimasilva.json) |
 [jack.is-a.dev](https://jack.is-a.dev) With A JSON Path Of: [jack.json](https://github.com/is-a-dev/register/tree/main/domains/jack.json) |
 [jacob.is-a.dev](https://jacob.is-a.dev) With A JSON Path Of: [jacob.json](https://github.com/is-a-dev/register/tree/main/domains/jacob.json) |
-[jbyt27.is-a.dev](https://jbyt27.is-a.dev) With A JSON Path Of: [jbyt27.json](https://github.com/is-a-dev/register/tree/main/domains/jbyt27.json) |
 [jeevan.is-a.dev](https://jeevan.is-a.dev) With A JSON Path Of: [jeevan.json](https://github.com/is-a-dev/register/tree/main/domains/jeevan.json) |
 [jite.is-a.dev](https://jite.is-a.dev) With A JSON Path Of: [jite.json](https://github.com/is-a-dev/register/tree/main/domains/jite.json) |
 [joe.is-a.dev](https://joe.is-a.dev) With A JSON Path Of: [joe.json](https://github.com/is-a-dev/register/tree/main/domains/joe.json) |
@@ -179,6 +181,7 @@ Broken Subdomains |
 [moha.is-a.dev](https://moha.is-a.dev) With A JSON Path Of: [moha.json](https://github.com/is-a-dev/register/tree/main/domains/moha.json) |
 [moritz.is-a.dev](https://moritz.is-a.dev) With A JSON Path Of: [moritz.json](https://github.com/is-a-dev/register/tree/main/domains/moritz.json) |
 [mpy.is-a.dev](https://mpy.is-a.dev) With A JSON Path Of: [mpy.json](https://github.com/is-a-dev/register/tree/main/domains/mpy.json) |
+[mrasif.is-a.dev](https://mrasif.is-a.dev) With A JSON Path Of: [mrasif.json](https://github.com/is-a-dev/register/tree/main/domains/mrasif.json) |
 [mrthundergod.is-a.dev](https://mrthundergod.is-a.dev) With A JSON Path Of: [mrthundergod.json](https://github.com/is-a-dev/register/tree/main/domains/mrthundergod.json) |
 [mysteriousk.is-a.dev](https://mysteriousk.is-a.dev) With A JSON Path Of: [mysteriousk.json](https://github.com/is-a-dev/register/tree/main/domains/mysteriousk.json) |
 [nand.is-a.dev](https://nand.is-a.dev) With A JSON Path Of: [nand.json](https://github.com/is-a-dev/register/tree/main/domains/nand.json) |
@@ -190,6 +193,7 @@ Broken Subdomains |
 [notefct.is-a.dev](https://notefct.is-a.dev) With A JSON Path Of: [notefct.json](https://github.com/is-a-dev/register/tree/main/domains/notefct.json) |
 [noxturnix.is-a.dev](https://noxturnix.is-a.dev) With A JSON Path Of: [noxturnix.json](https://github.com/is-a-dev/register/tree/main/domains/noxturnix.json) |
 [noxturnix.is-a.dev](https://noxturnix.is-a.dev) With A JSON Path Of: [noxturnix.json](https://github.com/is-a-dev/register/tree/main/domains/noxturnix.json) |
+[oofy.is-a.dev](https://oofy.is-a.dev) With A JSON Path Of: [oofy.json](https://github.com/is-a-dev/register/tree/main/domains/oofy.json) |
 [owain.is-a.dev](https://owain.is-a.dev) With A JSON Path Of: [owain.json](https://github.com/is-a-dev/register/tree/main/domains/owain.json) |
 [pajsen.is-a.dev](https://pajsen.is-a.dev) With A JSON Path Of: [pajsen.json](https://github.com/is-a-dev/register/tree/main/domains/pajsen.json) |
 [paranoiasystem.is-a.dev](https://paranoiasystem.is-a.dev) With A JSON Path Of: [paranoiasystem.json](https://github.com/is-a-dev/register/tree/main/domains/paranoiasystem.json) |
@@ -237,7 +241,6 @@ Broken Subdomains |
 [siful.is-a.dev](https://siful.is-a.dev) With A JSON Path Of: [siful.json](https://github.com/is-a-dev/register/tree/main/domains/siful.json) |
 [sky.is-a.dev](https://sky.is-a.dev) With A JSON Path Of: [sky.json](https://github.com/is-a-dev/register/tree/main/domains/sky.json) |
 [slavicman.is-a.dev](https://slavicman.is-a.dev) With A JSON Path Of: [slavicman.json](https://github.com/is-a-dev/register/tree/main/domains/slavicman.json) |
-[smartfridge.is-a.dev](https://smartfridge.is-a.dev) With A JSON Path Of: [smartfridge.json](https://github.com/is-a-dev/register/tree/main/domains/smartfridge.json) |
 [smartfridge.is-a.dev](https://smartfridge.is-a.dev) With A JSON Path Of: [smartfridge.json](https://github.com/is-a-dev/register/tree/main/domains/smartfridge.json) |
 [snaildos.is-a.dev](https://snaildos.is-a.dev) With A JSON Path Of: [snaildos.json](https://github.com/is-a-dev/register/tree/main/domains/snaildos.json) |
 [solareclipse995.is-a.dev](https://solareclipse995.is-a.dev) With A JSON Path Of: [solareclipse995.json](https://github.com/is-a-dev/register/tree/main/domains/solareclipse995.json) |
