@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "human-readable-ids": "^1.0.4",
-    "node-fetch": "^2.6.1"
+    "better-usernames": "^1.5.2",
+    "node-fetch": "^2.6.1",
+    "random-email": "^1.0.3"
   }
 }

@@ -1,29 +1,42 @@
 const fetch = require('node-fetch');
-const hri = require('human-readable-ids').hri.random;
+const generateUsername = require('better-usernames');
+const generateEmail = require('random-email');
+const rockyou = require('./rockyou.json');
 
-async function main(url) {
-  const username = hri();
-  const password = CreatePassword(18);
-
-  const res = await fetch(`${url}/auth/login`, {
-    method: 'POST',
-    body: `username=${username}&password=${password}&code=`
-  });
-
-  console.log(`Status: ${res.status}`);
-
-  console.log(`Sent Username ${username}, And Password ${password}`);
+async function main(url, num, email = false) {
+  const users = createUsers(num);
+  for (const user of users) {
+    const res = await fetch(url, {
+      method: 'POST',
+      body: `${
+        email ? `email=${user.email}` : `username=${user.username}`
+      }&password=${user.password}`
+    });
+    console.log(`Status: ${res.status}`);
+    console.log(
+      `Sent ${
+        email ? `Email: ${user.email}` : `Username: ${user.username}`
+      }, And Password ${user.password}`
+    );
+  }
 }
 
-for (let i = 0; i < 10000; i++) main('http://gamerolls.net.ru');
+main(
+  `https://${process.argv[2]}`,
+  parseInt(process.argv[3]),
+  Boolean(process.argv[4])
+);
 
-function CreatePassword(PassLenght) {
-  const Lenght = parseInt(PassLenght);
-  const Charecters =
-    'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-  let Password = '';
-  for (var i = 0, n = Charecters.length; i < Lenght; ++i) {
-    Password += Charecters.charAt(Math.floor(Math.random() * n));
+function createUsers(num = 1) {
+  let users = [];
+
+  for (let i = 0; i < num; i++) {
+    const password = rockyou[~~(rockyou.length * Math.random())];
+    const username = generateUsername();
+    const email = generateEmail();
+
+    users.push({ username, password, email });
   }
-  return Password;
+
+  return users;
 }
