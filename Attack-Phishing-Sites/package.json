@@ -1,0 +1,11 @@
+{
+  "name": "attack-phishing-sites",
+  "version": "1.0.0",
+  "discription": "This Is A CLI App That Attacks Phishing Sites",
+  "bin": "./index.js",
+  "dependencies": {
+    "better-usernames": "^1.5.2",
+    "email-generator": "^1.0.1",
+    "node-fetch": "^2.6.1"
+  }
+}

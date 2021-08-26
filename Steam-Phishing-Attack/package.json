@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "better-usernames": "^1.5.2",
-    "node-fetch": "^2.6.1",
-    "random-email": "^1.0.3"
-  }
-}
