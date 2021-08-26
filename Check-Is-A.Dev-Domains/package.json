@@ -1,15 +1,3 @@
-{
-  "name": "check-is-a-dev-domains",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "npm i && node --trace-warnings index.js"
-  },
-  "author": "Jay Jackson",
-  "license": "MIT"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1856ccfb89302863bd13b4654bd99c6df4200f65ffd1404da72a4b4156059d6
+size 303
