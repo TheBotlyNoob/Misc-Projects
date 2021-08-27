@@ -20,11 +20,7 @@ function checkID(id = generateID()) {
     fs.writeFileSync('IDs.json', '[]');
     IDs = JSON.parse(fs.readFileSync('IDs.json', 'utf8'));
   }
-  for (var i = 0; i < IDs.length; i++) {
-    if (IDs[i] == id) {
-      checkID(generateID());
-    }
-  }
+  if (IDs.includes(id)) checkID(generateID());
   IDs.push(id);
   fs.writeFileSync('IDs.json', JSON.stringify(IDs));
   return id;
