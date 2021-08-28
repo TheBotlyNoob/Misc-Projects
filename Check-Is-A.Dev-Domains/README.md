@@ -22,6 +22,7 @@ Broken Subdomains |
 [alexjoseph.is-a.dev](https://alexjoseph.is-a.dev) With A JSON Path Of: [alexjoseph.json](https://github.com/is-a-dev/register/tree/main/domains/alexjoseph.json) |
 [allan.is-a.dev](https://allan.is-a.dev) With A JSON Path Of: [allan.json](https://github.com/is-a-dev/register/tree/main/domains/allan.json) |
 [allsyed.is-a.dev](https://allsyed.is-a.dev) With A JSON Path Of: [allsyed.json](https://github.com/is-a-dev/register/tree/main/domains/allsyed.json) |
+[allvaa.is-a.dev](https://allvaa.is-a.dev) With A JSON Path Of: [allvaa.json](https://github.com/is-a-dev/register/tree/main/domains/allvaa.json) |
 [amal.is-a.dev](https://amal.is-a.dev) With A JSON Path Of: [amal.json](https://github.com/is-a-dev/register/tree/main/domains/amal.json) |
 [amalsr.is-a.dev](https://amalsr.is-a.dev) With A JSON Path Of: [amalsr.json](https://github.com/is-a-dev/register/tree/main/domains/amalsr.json) |
 [amalsr.is-a.dev](https://amalsr.is-a.dev) With A JSON Path Of: [amalsr.json](https://github.com/is-a-dev/register/tree/main/domains/amalsr.json) |
@@ -248,6 +249,7 @@ Broken Subdomains |
 [superharmony910.is-a.dev](https://superharmony910.is-a.dev) With A JSON Path Of: [superharmony910.json](https://github.com/is-a-dev/register/tree/main/domains/superharmony910.json) |
 [swanny.is-a.dev](https://swanny.is-a.dev) With A JSON Path Of: [swanny.json](https://github.com/is-a-dev/register/tree/main/domains/swanny.json) |
 [swapnil.is-a.dev](https://swapnil.is-a.dev) With A JSON Path Of: [swapnil.json](https://github.com/is-a-dev/register/tree/main/domains/swapnil.json) |
+[syofyanzuhad.is-a.dev](https://syofyanzuhad.is-a.dev) With A JSON Path Of: [syofyanzuhad.json](https://github.com/is-a-dev/register/tree/main/domains/syofyanzuhad.json) |
 [tanishq.is-a.dev](https://tanishq.is-a.dev) With A JSON Path Of: [tanishq.json](https://github.com/is-a-dev/register/tree/main/domains/tanishq.json) |
 [the-garlic-os.is-a.dev](https://the-garlic-os.is-a.dev) With A JSON Path Of: [the-garlic-os.json](https://github.com/is-a-dev/register/tree/main/domains/the-garlic-os.json) |
 [theark.is-a.dev](https://theark.is-a.dev) With A JSON Path Of: [theark.json](https://github.com/is-a-dev/register/tree/main/domains/theark.json) |
