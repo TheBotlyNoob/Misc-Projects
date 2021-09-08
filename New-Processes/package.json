@@ -1,0 +1,29 @@
+{
+  "name": "New-Processes",
+  "version": "1.0.0",
+  "description": "A Module To List New Processes",
+  "main": "index.js",
+  "bin": {
+    "new-processes": "./cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBotlyNoob/Misc-Projects.git"
+  },
+  "keywords": [],
+  "author": "Jay Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBotlyNoob/Misc-Projects/issues"
+  },
+  "homepage": "https://github.com/TheBotlyNoob/Misc-Projects/tree/main/New-Processes#readme",
+  "dependencies": {
+    "deep-diff": "^1.0.2",
+    "fkill": "^7.2.1",
+    "ps-list": "^7.2.0"
+  }
+}

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8fb47e97d4f535b5eb802dfed36dd3ab87dae6cca476fd2f9a3cfd8de9334170
-size 544
+{
+  "name": "@tbn/node-repl",
+  "version": "1.0.3",
+  "description": "A command line tool for a syntax highlighted Node repl",
+  "private": false,
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "node-repl": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheBotlyNoob/node-repl.git"
+  },
+  "keywords": ["repl", "node"],
+  "author": "Jay Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "pretty-repl": "^3.1.1"
+  },
+  "devDependencies": {}
+}
