@@ -281,6 +281,7 @@ Broken Subdomains |
 [tomas.is-a.dev](https://tomas.is-a.dev) With A JSON Path Of: [tomas.json](https://github.com/is-a-dev/register/tree/main/domains/tomas.json) |
 [tonycolston.is-a.dev](https://tonycolston.is-a.dev) With A JSON Path Of: [tonycolston.json](https://github.com/is-a-dev/register/tree/main/domains/tonycolston.json) |
 [tovade.is-a.dev](https://tovade.is-a.dev) With A JSON Path Of: [tovade.json](https://github.com/is-a-dev/register/tree/main/domains/tovade.json) |
+[tristan.is-a.dev](https://tristan.is-a.dev) With A JSON Path Of: [tristan.json](https://github.com/is-a-dev/register/tree/main/domains/tristan.json) |
 [tsull360.is-a.dev](https://tsull360.is-a.dev) With A JSON Path Of: [tsull360.json](https://github.com/is-a-dev/register/tree/main/domains/tsull360.json) |
 [tyler.is-a.dev](https://tyler.is-a.dev) With A JSON Path Of: [tyler.json](https://github.com/is-a-dev/register/tree/main/domains/tyler.json) |
 [usman.is-a.dev](https://usman.is-a.dev) With A JSON Path Of: [usman.json](https://github.com/is-a-dev/register/tree/main/domains/usman.json) |
