@@ -1,3 +1,3 @@
 const onPs = require('.');
 
-onPs((ps) => console.log(ps.name));
+onPs((ps) => console.log(ps));

@@ -9,7 +9,11 @@ module.exports = async (callback) => {
     pses = await psList();
     diff(prevList, pses, (item) =>
       item.path?.[item.path?.length - 1] === 'name' &&
-      !item.lhs?.includes('fastlist')
+      !(
+        item.lhs?.includes('fastlist') ||
+        item.lhs?.includes('taskkill') ||
+        item.lhs?.includes('conhost')
+      )
         ? callback(item.lhs, pses)
         : ''
     );
