@@ -51,16 +51,17 @@ var down = [],
         try {
           fetched = await fetch(`https://${current}.is-a.dev`);
         } catch (_) {
-          down.push(current);
+          console.log(`https://${current}.is-a.dev Cannot Be Reached`);
+          down.push({ domain: current, down: true });
         }
 
         if (!fetched?.ok) {
           console.log(
             `https://${current}.is-a.dev Is NOT OK, It Is: ${fetched.status}`
           );
-          down.push(current);
+          down.push({ domain: current, code: fetched.status  });
         }
-      } catch (e) {}
+      } catch (_) {}
     }
   }
 
@@ -71,8 +72,8 @@ var down = [],
 ${down
   .map(
     (
-      domain
-    ) => `[${domain}.is-a.dev](https://${domain}.is-a.dev) With A JSON Path Of: [${domain}.json](https://github.com/is-a-dev/register/tree/main/domains/${domain}.json) |
+      { domain, down = false, code }
+    ) => `[${domain}.is-a.dev](https://${domain}.is-a.dev) ${down ? 'Cannot Be Reached' : `With A Code Of ${code}`} [JSON File](https://github.com/is-a-dev/register/tree/main/domains/${domain}.json) |
 `
   )
   .join('')}`
