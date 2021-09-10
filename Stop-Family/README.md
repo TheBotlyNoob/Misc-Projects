@@ -9,5 +9,5 @@ Stops `Microsoft Family Features` from working.
 Run this in an administrator command prompt:
 
 ```powershell
-powershell  -Command ""
+powershell -Verb runAs -Command "Invoke-WebRequest -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`" | IEX"
 ```
