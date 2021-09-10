@@ -1,5 +1,5 @@
 @echo off 
-set tasks=WpcUapApp.exe WpcTok.exe WpcMon.exe
+set tasks=WpcTok.exe WpcMon.exe
 
 :loop
   for %%t in (%tasks%) do ( 
