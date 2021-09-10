@@ -281,7 +281,6 @@ Broken Subdomains |
 [tomas.is-a.dev](https://tomas.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tomas.json) |
 [tonycolston.is-a.dev](https://tonycolston.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tonycolston.json) |
 [tovade.is-a.dev](https://tovade.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tovade.json) |
-[tristan.is-a.dev](https://tristan.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tristan.json) |
 [tsull360.is-a.dev](https://tsull360.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tsull360.json) |
 [tyler.is-a.dev](https://tyler.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/tyler.json) |
 [usman.is-a.dev](https://usman.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/usman.json) |
@@ -299,6 +298,7 @@ Broken Subdomains |
 [yourfriend.is-a.dev](https://yourfriend.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/yourfriend.json) |
 [yujia.is-a.dev](https://yujia.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/yujia.json) |
 [yum.is-a.dev](https://yum.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/yum.json) |
+[z4ff.is-a.dev](https://z4ff.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/z4ff.json) |
 [zelle.is-a.dev](https://zelle.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/zelle.json) |
 [zhycorp.is-a.dev](https://zhycorp.is-a.dev) With A Code Of 401 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/zhycorp.json) |
 [ziari.is-a.dev](https://ziari.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ziari.json) |
