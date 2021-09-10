@@ -18,7 +18,7 @@ function checkID(id = generateID()) {
     IDs = JSON.parse(fs.readFileSync('IDs.json', 'utf8'));
   } catch (_) {
     fs.writeFileSync('IDs.json', '[]');
-    IDs = JSON.parse(fs.readFileSync('IDs.json', 'utf8'));
+    IDs = [];
   }
   if (IDs.includes(id)) checkID(generateID());
   IDs.push(id);
