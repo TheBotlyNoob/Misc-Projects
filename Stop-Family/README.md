@@ -2,6 +2,8 @@
 
 Stops `Microsoft Family Features` from working.
 
+Sadly, it doesn't bypass any restrictions for apps.
+
 ## Install
 
 To Run On Startup, Run This In An Administrator PowerShell Prompt
