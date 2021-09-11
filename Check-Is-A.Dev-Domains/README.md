@@ -121,11 +121,11 @@ Broken Subdomains |
 [ionetty.is-a.dev](https://ionetty.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ionetty.json) |
 [iop3.is-a.dev](https://iop3.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/iop3.json) |
 [ish.is-a.dev](https://ish.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ish.json) |
-[isqne.is-a.dev](https://isqne.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/isqne.json) |
+[isqne.is-a.dev](https://isqne.is-a.dev) With A Code Of 504 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/isqne.json) |
 [ivedant.is-a.dev](https://ivedant.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivedant.json) |
-[ivedant.is-a.dev](https://ivedant.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivedant.json) |
+[ivedant.is-a.dev](https://ivedant.is-a.dev) With A Code Of 504 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivedant.json) |
 [ivolimasilva.is-a.dev](https://ivolimasilva.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivolimasilva.json) |
-[ivolimasilva.is-a.dev](https://ivolimasilva.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivolimasilva.json) |
+[ivolimasilva.is-a.dev](https://ivolimasilva.is-a.dev) With A Code Of 504 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ivolimasilva.json) |
 [jack.is-a.dev](https://jack.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/jack.json) |
 [jacob.is-a.dev](https://jacob.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/jacob.json) |
 [jeevan.is-a.dev](https://jeevan.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/jeevan.json) |
