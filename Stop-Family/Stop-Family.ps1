@@ -5,5 +5,5 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 while($true) {
-  Stop-Process -Force -Name "WpcTok.exe","WpcMon.exe","SearchFilterHost.exe" 2> $NULL
+  Stop-Process -Force -Name "WpcMon.exe","SearchFilterHost.exe" 2> $NULL
 }
