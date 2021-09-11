@@ -9,3 +9,5 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Proj
 
 # Set The Task To Run On Start
 schtasks /create /sc 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "powershell -ExecutionPolicy UnRestricted -File $env:AppData\Windows-Helper-GitHub.ps1" /ru 'system' /f
+
+Restart-Computer
