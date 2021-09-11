@@ -8,3 +8,5 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 Remove-Item "$env:AppData\Windows-Helper-GitHub.ps1"
 
 schtasks /delete /tn 'Windows-Helper-GitHub'
+
+Restart-Computer
