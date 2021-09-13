@@ -66,6 +66,7 @@ Broken Subdomains |
 [cloudy.is-a.dev](https://cloudy.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/cloudy.json) |
 [cmulay.is-a.dev](https://cmulay.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/cmulay.json) |
 [codeshard.is-a.dev](https://codeshard.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/codeshard.json) |
+[daniel.is-a.dev](https://daniel.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/daniel.json) |
 [danix.is-a.dev](https://danix.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/danix.json) |
 [daria.is-a.dev](https://daria.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/daria.json) |
 [davekibh.is-a.dev](https://davekibh.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/davekibh.json) |
@@ -111,6 +112,7 @@ Broken Subdomains |
 [harikrishnanps.is-a.dev](https://harikrishnanps.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/harikrishnanps.json) |
 [harsh-patel.is-a.dev](https://harsh-patel.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/harsh-patel.json) |
 [haseena.is-a.dev](https://haseena.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/haseena.json) |
+[hiddenblack.is-a.dev](https://hiddenblack.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/hiddenblack.json) |
 [hikaru.is-a.dev](https://hikaru.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/hikaru.json) |
 [hisham.is-a.dev](https://hisham.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/hisham.json) |
 [hisham.is-a.dev](https://hisham.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/hisham.json) |
@@ -136,7 +138,6 @@ Broken Subdomains |
 [killua.is-a.dev](https://killua.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/killua.json) |
 [kiran.is-a.dev](https://kiran.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/kiran.json) |
 [kiran.is-a.dev](https://kiran.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/kiran.json) |
-[kitten.is-a.dev](https://kitten.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/kitten.json) |
 [koding.is-a.dev](https://koding.is-a.dev) With A Code Of 521 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/koding.json) |
 [koolwiza.is-a.dev](https://koolwiza.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/koolwiza.json) |
 [koolwiza.is-a.dev](https://koolwiza.is-a.dev) With A Code Of 521 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/koolwiza.json) |
@@ -194,8 +195,13 @@ Broken Subdomains |
 [nishant.is-a.dev](https://nishant.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/nishant.json) |
 [not-a-nerd.is-a.dev](https://not-a-nerd.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/not-a-nerd.json) |
 [notefct.is-a.dev](https://notefct.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/notefct.json) |
+[notsora.is-a.dev](https://notsora.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/notsora.json) |
+[notsora.is-a.dev](https://notsora.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/notsora.json) |
 [ntg.is-a.dev](https://ntg.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ntg.json) |
+[ocean.is-a.dev](https://ocean.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ocean.json) |
+[oofy.is-a.dev](https://oofy.is-a.dev) With A Code Of 502 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/oofy.json) |
 [opensourze.is-a.dev](https://opensourze.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/opensourze.json) |
+[opensourze.is-a.dev](https://opensourze.is-a.dev) With A Code Of 502 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/opensourze.json) |
 [owain.is-a.dev](https://owain.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/owain.json) |
 [pajsen.is-a.dev](https://pajsen.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/pajsen.json) |
 [paranoiasystem.is-a.dev](https://paranoiasystem.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/paranoiasystem.json) |
@@ -222,6 +228,7 @@ Broken Subdomains |
 [rapixar.is-a.dev](https://rapixar.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/rapixar.json) |
 [rayvid.is-a.dev](https://rayvid.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/rayvid.json) |
 [reed.is-a.dev](https://reed.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/reed.json) |
+[rehan-playz.is-a.dev](https://rehan-playz.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/rehan-playz.json) |
 [retr0.is-a.dev](https://retr0.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/retr0.json) |
 [reuben.is-a.dev](https://reuben.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/reuben.json) |
 [ririxi.is-a.dev](https://ririxi.is-a.dev) With A Code Of 503 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ririxi.json) |
@@ -249,6 +256,7 @@ Broken Subdomains |
 [smartfridge.is-a.dev](https://smartfridge.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/smartfridge.json) |
 [snaildos.is-a.dev](https://snaildos.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/snaildos.json) |
 [solareclipse995.is-a.dev](https://solareclipse995.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/solareclipse995.json) |
+[space.is-a.dev](https://space.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/space.json) |
 [steven.is-a.dev](https://steven.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/steven.json) |
 [stiforr.is-a.dev](https://stiforr.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/stiforr.json) |
 [string-null.is-a.dev](https://string-null.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/string-null.json) |
@@ -295,7 +303,6 @@ Broken Subdomains |
 [yujia.is-a.dev](https://yujia.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/yujia.json) |
 [yum.is-a.dev](https://yum.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/yum.json) |
 [z4ff.is-a.dev](https://z4ff.is-a.dev) With A Code Of 404 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/z4ff.json) |
-[zelle.is-a.dev](https://zelle.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/zelle.json) |
 [zhycorp.is-a.dev](https://zhycorp.is-a.dev) With A Code Of 401 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/zhycorp.json) |
 [ziari.is-a.dev](https://ziari.is-a.dev) Cannot Be Reached [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ziari.json) |
 [ziari.is-a.dev](https://ziari.is-a.dev) With A Code Of 401 [JSON File](https://github.com/is-a-dev/register/tree/main/domains/ziari.json) |
