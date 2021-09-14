@@ -88,16 +88,17 @@ ${down
 
       /cc @${(
         await Promise.all(
-          down.map(async (domain) => {
-            (
-              await (
-                await fetch(
-                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
-                  fetchOpts
-                )
-              ).json()
-            )[0].author.login;
-          })
+          down.map(
+            async (domain) =>
+              (
+                await (
+                  await fetch(
+                    `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
+                    fetchOpts
+                  )
+                ).json()
+              )[0].author.login
+          )
         )
       ).join(' @')}
       `
