@@ -9,19 +9,12 @@ var down = [],
 
 (async () => {
   console.time('Completion');
-  const apiKey = (
-      await (
-        await fetch(
-          'https://jsonblob.com/api/jsonBlob/13d8cb9b-b971-11eb-9475-3362627de252'
-        )
-      ).json()
-    ).apiKey,
-    fetchOpts = {
-      method: 'GET',
-      headers: {
-        Authorization: `Token ${apiKey}`
-      }
-    };
+  const fetchOpts = {
+    method: 'GET',
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
+    }
+  };
 
   for (const i of (
     await (

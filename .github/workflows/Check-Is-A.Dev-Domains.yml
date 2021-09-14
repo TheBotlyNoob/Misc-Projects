@@ -8,17 +8,17 @@ jobs:
   check-domains:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ./Check-Is-A.Dev-Domains/
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+
         with:
           node-version: '16'
 
       - name: Run
+        working-directory: ./Check-Is-A.Dev-Domains/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm start
 
       - name: Commit
