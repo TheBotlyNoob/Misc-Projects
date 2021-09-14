@@ -57,11 +57,14 @@ var down = [],
     }
   }
 
+  console.log();
+  console.timeEnd('Completion');
+
   fs.writeFileSync(
     `${__dirname}/README.md`,
     `Broken Subdomains |
 :---:
-${[...new Set(down)]
+${down
   .map(
     ({
       domain,
@@ -74,6 +77,29 @@ ${[...new Set(down)]
   )
   .join('')}`
   );
-  console.log();
-  console.timeEnd('Completion');
+
+  await fetch('https://api.github.com/repos/is-a-dev/register/issues/1150', {
+    method: 'PATCH',
+    body: JSON.stringify({
+      body: `
+      This Is Just To Notify Everyone Who Has A Broken/Unused Domain. 
+      If You Need Help Fixing Your Domain, Comment On This Issue, Or Create A New Issue. 
+      If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To Someone Else Who Might Put It To Better Use.
+
+      /cc @${(
+        await Promise.all(
+          down.map(async (domain) => {
+            (
+              await (
+                await fetch(
+                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`
+                )
+              ).json()
+            )[0].author.login;
+          })
+        )
+      ).join(' @')}
+      `
+    })
+  });
 })();
