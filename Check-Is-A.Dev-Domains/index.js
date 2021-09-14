@@ -92,7 +92,8 @@ ${down
             (
               await (
                 await fetch(
-                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`
+                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
+                  fetchOpts
                 )
               ).json()
             )[0].author.login;
