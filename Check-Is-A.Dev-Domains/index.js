@@ -27,19 +27,7 @@ var down = [],
         if (i.path.startsWith('domains/')) {
           let current = i.path.replace('domains/', '').replace('.json', '');
           let fetched;
-          if (
-            ['@', '_psl', '_dmarc'].includes(current) ||
-            (
-              await (
-                await fetch(
-                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${current}.json`,
-                  fetchOpts
-                )
-              ).json()
-            )[0]?.commit.author.date.split('-')[1] <=
-              new Date().getMonth() - 5
-          )
-            return;
+          if (['@', '_psl', '_dmarc'].includes(current)) return;
 
           try {
             fetched = await fetch(`https://${current}.is-a.dev`);
@@ -83,26 +71,6 @@ ${down
   .join('')}`
   );
 
-  console.log(
-    (
-      await Promise.all(
-        down.map(async (domain) => {
-          const data = await (
-            await fetch(
-              `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
-              fetchOpts
-            )
-          ).json();
-          console.log(data);
-          for (const item of data) {
-            if (!item || item?.author.login === 'phenax') continue;
-            return item.author.login;
-          }
-        })
-      )
-    ).join(' @')
-  );
-
   await fetch('https://api.github.com/repos/is-a-dev/register/issues/1150', {
     ...fetchOpts,
     method: 'PATCH',
@@ -114,7 +82,7 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 
 /cc @${(
         await Promise.all(
-          down.map(async (domain) => {
+          down.map(async ({ domain }) => {
             const data = await (
               await fetch(
                 `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
@@ -122,13 +90,17 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
               )
             ).json();
             for (const item of data) {
-              if (!item || item?.author.login === 'phenax') continue;
-              return item.author.login;
+              if (
+                item.author?.login === 'phenax' ||
+                item.commit.author.name === 'phenax'
+              )
+                continue;
+
+              return item.author ? item.author.login : item.commiter?.login;
             }
           })
         )
-      ).join(' @')}
-      `
+      ).join(' @')}`
     })
   });
 })();
