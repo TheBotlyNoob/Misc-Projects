@@ -80,7 +80,7 @@ This Is Just To Notify Everyone Who Has A Broken/Unused Domain.
 If You Need Help Fixing Your Domain, Comment On This Issue, Or Create A New Issue.
 If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To Someone Else Who Might Put It To Better Use.
 
-<detail>
+<details>
 <summary><b>Users Who Have Broken Domains</b></summary>
 
 <p>
@@ -95,16 +95,29 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
                   fetchOpts
                 )
               ).json();
-              for (const item of data) {
-                if (item.author?.login === 'phenax') continue;
+              try {
+                for (const item of data) {
+                  if (item.author?.login === 'phenax') continue;
 
-                return (item.author
-                  ? item.author.login
-                  : item.commiter?.login) === undefined
-                  ? void 0
-                  : item.author
-                  ? item.author.login
-                  : item.commiter?.login;
+                  console.log(
+                    (item.author ? item.author.login : item.commiter?.login) ===
+                      undefined
+                      ? void 0
+                      : item.author
+                      ? item.author.login
+                      : item.commiter?.login
+                  );
+
+                  return (item.author
+                    ? item.author.login
+                    : item.commiter?.login) === undefined
+                    ? void 0
+                    : item.author
+                    ? item.author.login
+                    : item.commiter?.login;
+                }
+              } catch (_) {
+                console.log(data);
               }
             })
           )
@@ -113,7 +126,7 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 
 </p>
 
-</detail>`
+</details>`
     })
   });
 })();
