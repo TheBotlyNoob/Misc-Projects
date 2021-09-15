@@ -71,11 +71,6 @@ ${down
   .join('')}`
   );
 
-  fs.writeFileSync(
-    'test.js',
-    `const down=${JSON.stringify(down)}\n(async () => {})();`
-  );
-
   await fetch('https://api.github.com/repos/is-a-dev/register/issues/1150', {
     ...fetchOpts,
     method: 'PATCH',
@@ -85,7 +80,10 @@ This Is Just To Notify Everyone Who Has A Broken/Unused Domain.
 If You Need Help Fixing Your Domain, Comment On This Issue, Or Create A New Issue.
 If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To Someone Else Who Might Put It To Better Use.
 
-/cc @${[
+<detail>
+<summary><b>Users Who Have Broken Domains</b></summary>
+
+@${[
         ...new Set(
           await Promise.all(
             down.map(async ({ domain }) => {
@@ -109,7 +107,8 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
             })
           )
         )
-      ].join(' @')}`
+      ].join('\n@')}
+</detail>`
     })
   });
 })();
