@@ -83,6 +83,8 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 <detail>
 <summary><b>Users Who Have Broken Domains</b></summary>
 
+<p>
+
 @${[
         ...new Set(
           await Promise.all(
@@ -108,6 +110,9 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
           )
         )
       ].join('\n@')}
+
+</p>
+
 </detail>`
     })
   });
