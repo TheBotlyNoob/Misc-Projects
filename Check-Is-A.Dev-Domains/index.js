@@ -87,7 +87,7 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 
 <p>
 
-@${
+${
         (
           await Promise.all(
             down.map(async ({ domain }) => {
@@ -101,7 +101,7 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
                 for (const item of data) {
                   if (item.author?.login === 'phenax') continue;
 
-                  return `${(item.author
+                  return `@${(item.author
                     ? item.author.login
                     : item.commiter?.login) === undefined
                     ? void 0
@@ -115,7 +115,7 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
             })
           )
         )
-      .join('\n@')}
+      .join('\n')}
 
 </p>
 
