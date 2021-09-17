@@ -10,7 +10,7 @@ var down = [],
   console.time('Completion');
   const fetchOpts = {
     headers: {
-      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
+      Authorization: `Token ${process.env.GITHUB_TOKEN}`
     }
   };
 
