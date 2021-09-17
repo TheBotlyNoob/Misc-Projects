@@ -25,15 +25,22 @@ var down = [],
     promises.push(
       (async () => {
         if (i.path.startsWith('domains/')) {
-          let current = i.path.replace('domains/', '').replace('.json', '');
+          const current = i.path.replace('domains/', '').replace('.json', '');
+          const domainData =             await (
+              await fetch(
+                `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${current}.json`,
+                fetchOpts
+              )
+            ).json();
           let fetched;
-          if (['@', '_psl', '_dmarc'].includes(current)) return;
+          if (['@', '_psl', '_dmarc'].includes(current) || domainData [0].commit.author.date.split('-')[1] <=
+            new Date().getMonth() - 5) return;
 
           try {
             fetched = await fetch(`https://${current}.is-a.dev`);
           } catch (_) {
             console.log(`https://${current}.is-a.dev Cannot Be Reached`);
-            down.push({ domain: current, down: true });
+            down.push({ domain: current, down: true, domainData });
             return;
           }
 
@@ -41,7 +48,7 @@ var down = [],
             console.log(
               `https://${current}.is-a.dev Is NOT OK, It Is: ${fetched.status}`
             );
-            down.push({ domain: current, code: fetched.status });
+            down.push({ domain: current, code: fetched.status, domainData, down: false });
           }
         }
       })()
@@ -61,7 +68,7 @@ ${down
   .map(
     ({
       domain,
-      down = false,
+      down,
       code
     }) => `[${domain}.is-a.dev](https://${domain}.is-a.dev) ${
       down ? 'Cannot Be Reached' : `With A Code Of ${code}`
@@ -90,27 +97,17 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 ${
         (
           await Promise.all(
-            down.map(async ({ domain }) => {
-              const data = await (
-                await fetch(
-                  `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${domain}.json`,
-                  fetchOpts
-                )
-              ).json();
-              try {
-                for (const item of data) {
-                  if (item.author?.login === 'phenax') continue;
+            down.map(async ({ domain, domainData }) => {
+              for (const item of domainData) {
+                if (item.author?.login === 'phenax') continue;
 
-                  return `@${(item.author
-                    ? item.author.login
-                    : item.commiter?.login) === undefined
-                    ? void 0
-                    : item.author
-                    ? item.author.login
-                    : item.commiter?.login} - ${domain}.is-a.dev`;
-                }
-              } catch (_) {
-                console.log(data);
+                return `@${(item.author
+                  ? item.author.login
+                  : item.commiter?.login) === undefined
+                  ? void 0
+                  : item.author
+                  ? item.author.login
+                  : item.commiter?.login} - ${domain}.is-a.dev`;
               }
             })
           )
