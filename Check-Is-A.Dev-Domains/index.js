@@ -26,15 +26,20 @@ var down = [],
       (async () => {
         if (i.path.startsWith('domains/')) {
           const current = i.path.replace('domains/', '').replace('.json', '');
-          const domainData =             await (
-              await fetch(
-                `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${current}.json`,
-                fetchOpts
-              )
-            ).json();
+          const domainData = await (
+            await fetch(
+              `https://api.github.com/repos/is-a-dev/register/commits?path=domains/${current}.json`,
+              fetchOpts
+            )
+          ).json();
           let fetched;
-          if (['@', '_psl', '_dmarc'].includes(current) || domainData [0].commit.author.date.split('-')[1] <=
-            new Date().getMonth() - 5) return;
+          console.log(domainData);
+          if (
+            ['@', '_psl', '_dmarc'].includes(current) ||
+            domainData[0].commit.author.date.split('-')[1] <=
+              new Date().getMonth() - 5
+          )
+            return;
 
           try {
             fetched = await fetch(`https://${current}.is-a.dev`);
@@ -48,7 +53,12 @@ var down = [],
             console.log(
               `https://${current}.is-a.dev Is NOT OK, It Is: ${fetched.status}`
             );
-            down.push({ domain: current, code: fetched.status, domainData, down: false });
+            down.push({
+              domain: current,
+              code: fetched.status,
+              domainData,
+              down: false
+            });
           }
         }
       })()
@@ -94,25 +104,23 @@ If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To 
 
 <p>
 
-${
-        (
-          await Promise.all(
-            down.map(async ({ domain, domainData }) => {
-              for (const item of domainData) {
-                if (item.author?.login === 'phenax') continue;
+${(
+  await Promise.all(
+    down.map(async ({ domain, domainData }) => {
+      for (const item of domainData) {
+        if (item.author?.login === 'phenax') continue;
 
-                return `@${(item.author
-                  ? item.author.login
-                  : item.commiter?.login) === undefined
-                  ? void 0
-                  : item.author
-                  ? item.author.login
-                  : item.commiter?.login} - ${domain}.is-a.dev`;
-              }
-            })
-          )
-        )
-      .join('\n')}
+        return `@${
+          (item.author ? item.author.login : item.commiter?.login) === undefined
+            ? void 0
+            : item.author
+            ? item.author.login
+            : item.commiter?.login
+        } - ${domain}.is-a.dev`;
+      }
+    })
+  )
+).join('\n')}
 
 </p>
 

@@ -14,7 +14,10 @@
     "type": "git",
     "url": "https://github.com/TheBotlyNoob/node-repl.git"
   },
-  "keywords": ["repl", "node"],
+  "keywords": [
+    "repl",
+    "node"
+  ],
   "author": "Jay Jackson",
   "license": "MIT",
   "dependencies": {
