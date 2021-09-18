@@ -39,14 +39,14 @@ var down = [],
             domainData[0].commit.author.date.split('-')[1] <=
               new Date().getMonth() - 5
           )
-            return;
+            return await new Promise((res) => setTimeout(res, 1000));
 
           try {
             fetched = await fetch(`https://${current}.is-a.dev`);
           } catch (_) {
             console.log(`https://${current}.is-a.dev Cannot Be Reached`);
             down.push({ domain: current, down: true, domainData });
-            return;
+            return await new Promise((res) => setTimeout(res, 1000));
           }
 
           if (!fetched?.ok) {
@@ -120,8 +120,9 @@ ${(
       }
     })
   )
-).filter(Boolean)
- .join('\n')}
+)
+  .filter(Boolean)
+  .join('\n')}
 
 </p>
 
