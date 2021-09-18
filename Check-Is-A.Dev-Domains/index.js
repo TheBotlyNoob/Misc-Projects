@@ -97,7 +97,7 @@ This Is Just To Notify Everyone Who Has A Broken/Unused Domain.
 If You Need Help Fixing Your Domain, Comment On This Issue, Or Create A New Issue.
 If You Have Just Parked A Domain For Later Use, We Ask That You Give It Away To Someone Else Who Might Put It To Better Use.
 
-> If You Are Having Issues With Vercel Or Netlify, Try [Railway](https://railway.app/)
+> If You Are Having Issues With Vercel Or Netlify, Try [Railway](https://railway.app?referralCode=rK--pl)
 
 <details>
 <summary><b>Users Who Have Broken Domains</b></summary>
