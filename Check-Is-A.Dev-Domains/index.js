@@ -120,7 +120,8 @@ ${(
       }
     })
   )
-).join('\n')}
+).filter(Boolean)
+ .join('\n')}
 
 </p>
 
