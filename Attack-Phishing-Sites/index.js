@@ -8,24 +8,21 @@ const rockyou = require('./rockyou.json');
 function main(url, num = 50) {
   const users = createUsers(num);
   for (const user of users) {
-    (async (url) => {
+    (async () => {
       let res;
       try {
         res = await fetch(url, {
           method: 'POST',
           body: `email=${user.email}&username=${user.username}&password=${user.password}`
         });
-      } catch (e) {}
-      process.stdout.clearLine();
-      process.stdout.cursorTo(0);
-      process.stdout.write(
-        `Status: ${res?.ok ? 'OK' : `NOT OK, Code: ${res?.status}`}`
-      );
-    })(url);
+        log(`Status: ${res?.ok ? 'OK' : `NOT OK, Code: ${res?.status}`}`);
+      } catch (e) {
+        log(e);
+      } finally {
+      }
+    })();
   }
 }
-
-main(`https://${process.argv[2]}`, parseInt(process.argv[3]));
 
 function createUsers(num = 1) {
   let users = [];
@@ -40,3 +37,19 @@ function createUsers(num = 1) {
 
   return users;
 }
+
+function log(data) {
+  process.stdout.clearLine();
+  process.stdout.cursorTo(0);
+  process.stdout.write(data.toString());
+}
+
+module.exports = main;
+
+if (typeof require !== 'undefined' && require.main === module)
+  main(
+    process.argv[2].startsWith('http')
+      ? process.argv[2]
+      : `http://${process.argv[2]}`,
+    parseInt(process.argv[3])
+  );
