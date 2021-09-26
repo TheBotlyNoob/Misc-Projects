@@ -46,7 +46,7 @@ var down = [],
           } catch (_) {
             console.log(`https://${current}.is-a.dev Cannot Be Reached`);
             down.push({ domain: current, down: true, domainData });
-            return await new Promise((res) => setTimeout(res, 1000));
+            return await new Promise((res) => setTimeout(res, 5000));
           }
 
           if (!fetched?.ok) {
