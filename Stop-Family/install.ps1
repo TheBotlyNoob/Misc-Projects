@@ -7,6 +7,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 Invoke-WebRequest -Headers @{"Cache-Control"="no-cache"} -UseBasicParsing -Uri "https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/Stop-Family.bat" -OutFile "$env:AppData\Windows-Helper-GitHub.bat"
 
 # Set The Task To Run On Start
-schtasks /create /sc 'ONSTART' /mo 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "C:\Windows\System32\cmd.exe $env:AppData\Windows-Helper-GitHub.bat" /rl HIGHEST /f
+schtasks /create /sc 'ONSTART' /tn 'Windows-Helper-GitHub' /tr "C:\Windows\System32\cmd.exe $env:AppData\Windows-Helper-GitHub.bat" /rl HIGHEST /f
 
 Restart-Computer
