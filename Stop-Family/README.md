@@ -9,7 +9,7 @@ Sadly, it doesn't bypass any restrictions for apps.
 To Run On Startup, Run This In An Administrator PowerShell Prompt
 
 ```powershell
-Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`").Content | IEX"
+Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -Headers @{`"Cache-Control`"=`"no-cache`"} -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`").Content | IEX"
 ```
 
 ## Uninstallation

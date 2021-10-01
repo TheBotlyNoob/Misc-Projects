@@ -1,5 +1,5 @@
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-  Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -Headers @{"Cache-Control"="no-cache"} -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`").Content | IEX"
+  Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -Headers @{`"Cache-Control`"=`"no-cache`"} -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`").Content | IEX"
   Break
 }
 
