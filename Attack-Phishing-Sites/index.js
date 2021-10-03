@@ -13,12 +13,11 @@ function main(url, num = 50) {
       try {
         res = await fetch(url, {
           method: 'POST',
-          body: `email=${user.email}&username=${user.username}&password=${user.password}`
+          body: `email=${user.email}&username=${user.username}&password=${user.password}&login=${user.email}`
         });
         log(`Status: ${res?.ok ? 'OK' : `NOT OK, Code: ${res?.status}`}`);
       } catch (e) {
         log(e);
-      } finally {
       }
     })();
   }
