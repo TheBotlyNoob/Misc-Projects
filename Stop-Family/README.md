@@ -6,7 +6,7 @@ Sadly, it doesn't bypass any restrictions for apps.
 
 ## Install
 
-To Run On Startup, Run This In An Administrator PowerShell Prompt
+To Run On Startup, Run This In A PowerShell Prompt
 
 ```powershell
 Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -Headers @{`"Cache-Control`"=`"no-cache`"} -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/install.ps1`").Content"
@@ -14,7 +14,7 @@ Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -Headers 
 
 ## Uninstallation
 
-To Uninstall This Package, Run This In An Administrator PowerShell Prompt
+To Uninstall This Package, Run This In A PowerShell Prompt
 
 ```powershell
 Start-Process powershell -Verb runAs -ArgumentList "(Invoke-WebRequest -UseBasicParsing -Uri `"https://raw.githubusercontent.com/TheBotlyNoob/Misc-Projects/main/Stop-Family/uninstall.ps1`").Content"
