@@ -61,7 +61,7 @@ var down = [],
             });
           }
         }
-        await new Promise((res) => setTimeout(res, 5000));
+        await new Promise((res) => setTimeout(res, 20000));
       })()
     );
   }
