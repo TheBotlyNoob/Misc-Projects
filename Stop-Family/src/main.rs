@@ -1,5 +1,6 @@
 // #![windows_subsystem = "windows"]
 mod is_admin;
+mod kill;
 use std::os::windows::process::CommandExt;
 use std::process::Command;
 use std::thread::sleep;
@@ -8,12 +9,9 @@ use std::time::Duration;
 fn main() {
   if is_admin::is_app_elevated() {
     loop {
-      Command::new("cmd")
-        .args(["/c", "taskkill", "/f", "/im", "WpcMon.exe"])
-        .output()
-        .expect("Failed To Kill `WpcMon.exe`!");
+      kill::kill("WpcMon.exe");
 
-      sleep(Duration::from_secs(5));
+      sleep(Duration::from_secs(10));
     }
   } else {
     Command::new("powershell")
@@ -24,11 +22,7 @@ fn main() {
         "-WindowStyle",
         "hidden",
         "-FilePath",
-        &*(std::env::current_exe()
-          .unwrap()
-          .into_os_string()
-          .into_string()
-          .unwrap()),
+        &*(std::env::current_exe().unwrap().to_str().unwrap()),
       ])
       .creation_flags(0x08000000)
       .output()
