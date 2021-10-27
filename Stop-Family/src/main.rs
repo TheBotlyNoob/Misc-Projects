@@ -3,16 +3,29 @@ mod is_admin;
 mod kill;
 use std::os::windows::process::CommandExt;
 use std::process::Command;
-use std::thread::sleep;
-use std::time::Duration;
+use threadpool::ThreadPool;
 
 fn main() {
   if is_admin::is_app_elevated() {
-    loop {
-      kill::kill("WpcMon.exe");
+    let to_kill = vec!["WpcMon.exe", "WpcTok.exe", "RuntimeBroker.exe", "WpcUapApp.exe"];
+	let mut threads = Vec::new();
 
-      sleep(Duration::from_secs(10));
+    for _to_kill in to_kill {
+	  let pool = ThreadPool::new(4);
+	  
+	  threads.push(pool);
+	  
+	  pool.execute(move || {
+		loop {
+		  kill::kill(_to_kill);
+		  println!("{}", _to_kill);
+		}
+	  });
     }
+	
+	for thread in threads {
+	  thread.join();
+	}
   } else {
     Command::new("powershell")
       .args([
