@@ -4,6 +4,12 @@ version = "0.0.1"
 edition = "2018"
 
 [dependencies]
-sysinfo = "0.20.5"
-winapi = {version = "0.3.9", features = ["handleapi", "processthreadsapi", "winnt", "securitybaseapi", "impl-default"]}
+sysinfo = "0.21.1"
+winapi = { version = "0.3.9", features = [
+  "handleapi",
+  "processthreadsapi",
+  "winnt",
+  "securitybaseapi",
+  "impl-default",
+] }
 threadpool = "1.0"
