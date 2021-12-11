@@ -25,7 +25,7 @@ fn main() {
         "-WindowStyle",
         "hidden",
         "-FilePath",
-        &*(std::env::current_exe().unwrap().to_str().unwrap()),
+        &std::env::current_exe().unwrap().to_str().unwrap(),
       ])
       .creation_flags(0x08000000)
       .output()
